@@ -1,0 +1,37 @@
+{
+  "settings": {
+    "deleteViolatingMessage": true,
+    "dmUserOnViolation": true,
+    "logChannelId": "",
+    "exemptRoleIds": [],
+    "exemptUserIds": [],
+    "escalation": {
+      "timeoutMinutesLadder": [60, 360, 1440],
+      "strikeResetDays": 30
+    }
+  },
+  "rules": [
+    {
+      "id": "profanity",
+      "description": "Profanity and slurs",
+      "type": "keyword",
+      "patternsFile": "wordlists/profanity.txt",
+      "patterns": [],
+      "enabled": true
+    },
+    {
+      "id": "invite-links",
+      "description": "No external Discord invite links",
+      "type": "regex",
+      "patterns": ["discord(?:\\.gg|app\\.com\\/invite)\\/[A-Za-z0-9-]+"],
+      "enabled": true
+    },
+    {
+      "id": "scam-links",
+      "description": "Common scam / free-nitro phrasing",
+      "type": "regex",
+      "patterns": ["free\\s+nitro", "steam\\s+gift", "click\\s+here\\s+to\\s+claim"],
+      "enabled": true
+    }
+  ]
+}

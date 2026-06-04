@@ -1,0 +1,38 @@
+# Profanity wordlist for the "profanity" rule.
+# One term per line. Lines starting with '#' and blank lines are ignored.
+# Matched as whole words, case-insensitive (so "Shit" and "SHIT" both hit,
+# but "assistant" does NOT trigger on "ass").
+#
+# Edit this file freely, then run /rules reload in Discord (or restart).
+# This is a baseline of common English profanity. Add your own server-specific
+# terms below, and see README for adding a comprehensive slur list.
+
+fuck
+fucking
+fucker
+motherfucker
+shit
+bullshit
+bitch
+bastard
+asshole
+dumbass
+jackass
+dick
+dickhead
+piss
+pissed
+prick
+cock
+pussy
+cunt
+twat
+wank
+wanker
+bollocks
+slut
+whore
+douche
+douchebag
+retard
+retarded
