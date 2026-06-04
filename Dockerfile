@@ -10,9 +10,9 @@ RUN npm ci --omit=dev
 # Copy the rest of the source.
 COPY . .
 
-# Persist the strike store outside the image layer (mount a volume here).
+
 ENV DATA_DIR=/data
-VOLUME ["/data"]
+
 
 # This is a background worker — it does not listen on a port.
 CMD ["node", "index.js"]
