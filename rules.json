@@ -6,7 +6,7 @@
     "exemptRoleIds": [],
     "exemptUserIds": [],
     "escalation": {
-      "timeoutMinutesLadder": [60, 360, 1440],
+      "timeoutMinutesLadder": [5],
       "strikeResetDays": 30
     }
   },
