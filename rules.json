@@ -21,9 +21,9 @@
     },
     {
       "id": "invite-links",
-      "description": "No external Discord invite links",
+      "description": "No external Discord invite links (own server's 'rezona' invites allowed)",
       "type": "regex",
-      "patterns": ["discord(?:\\.gg|app\\.com\\/invite)\\/[A-Za-z0-9-]+"],
+      "patterns": ["discord(?:\\.gg|(?:app)?\\.com/invite)/(?!rezona\\b)[A-Za-z0-9-]+"],
       "enabled": true
     },
     {
