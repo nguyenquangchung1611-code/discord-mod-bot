@@ -3,7 +3,7 @@
     "deleteViolatingMessage": true,
     "dmUserOnViolation": true,
     "logChannelId": "",
-    "exemptRoleIds": [],
+    "exemptRoleIds": ["1407987011859648512"],
     "exemptUserIds": [],
     "escalation": {
       "timeoutMinutesLadder": [5],
